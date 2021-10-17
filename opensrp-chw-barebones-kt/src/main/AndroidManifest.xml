@@ -1,0 +1,17 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="org.smartregister.chw.barebone">
+
+    <uses-permission android:name="android.permission.READ_PHONE_NUMBERS" />
+
+    <application>
+        <activity
+            android:name="org.smartregister.chw.barebone.activity.BaseTestRegistrationFormsActivity"
+            android:theme="@style/ChwTbTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+        <activity
+            android:name="org.smartregister.chw.barebone.activity.BaseTestProfileActivity"
+            android:theme="@style/ChwTbTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize" />
+
+    </application>
+</manifest>

@@ -1,0 +1,122 @@
+<resources>
+    <string name="app_name">opensrp-chw-test</string>
+    <string name="error_unable_to_start_form">An error occurred when starting the form</string>
+    <string name="error_unable_to_save_form">An error occurred when saving the form</string>
+    <string name="test_clients">test Clients</string>
+    <string name="test_community_followup_clients">Followup Clients</string>
+    <string name="followup_referral">test Followup Referrals</string>
+
+    <!-- menu -->
+    <string name="add_member">Add Member</string>
+    <string name="sort">Sort</string>
+    <string name="home">Home</string>
+    <string name="add_family">Add family</string>
+    <string name="scan_qr">Scan QR</string>
+    <string name="job_aids">Job Aids</string>
+    <string name="saving_dialog_title">Saving</string>
+    <string name="interpunct" translatable="false">\u00b7</string>
+    <string name="referral_followup_visit">FOLLOWUP\nVISIT</string>
+    <string name="record_followup">Record follow-up</string>
+    <string name="return_to_previous">Return all Referral Clients</string>
+    <string name="last_visit_40_days_ago">Last visit %1$s ago</string>
+    <string name="view_medical_history">View medical history</string>
+    <string name="view_upcoming_services">View upcoming services</string>
+    <string name="family_has_nothing_due">Family has nothing due</string>
+    <string name="client_has_nothing_due">Client has nothing due</string>
+    <string name="go_to_family_s_profile">Go to family\'s profile</string>
+    <string name="go_to_client_s_profile">Go to client\'s profile</string>
+    <string name="family_has_services_due">Family has services due</string>
+    <string name="client_has_services_due">Client has services due</string>
+    <string name="primary_care_giver">Primary care giver</string>
+    <string name="family_head">FAMILY HEAD</string>
+    <string name="family_has_service_overdue"><![CDATA[Family has <font color=#FF0000>services overdue</font></b>]]></string>
+    <string name="client_has_service_overdue"><![CDATA[Client has <font color=#FF0000>services overdue</font></b>]]></string>
+    <string name="vaccine_service_upcoming"><![CDATA[%1$s <font color=#7f7f7f>upcoming (%2$s)</font></b>]]></string>
+    <string name="vaccine_service_overdue"><![CDATA[%1$s <font color=#f04646>overdue (%2$s)</font></b>]]></string>
+    <string name="vaccine_service_due"><![CDATA[%1$s <font color=#000000>due (%2$s)</font></b>]]></string>
+    <string name="call_referral_client">Call Referral Client</string>
+    <string name="head_of_family">Head of family</string>
+    <string name="test_client">Tuberculosis Client</string>
+    <string name="copy_to_clipboard">Copy to clipboard</string>
+    <string name="copied_phone_number">PhoneNumber copied to clipboard</string>
+    <string name="call">Call</string>
+    <string name="record_anc">Record ANC visit</string>
+    <string name="record_anc_visit_not_done">ANC visit not done</string>
+    <string name="action_test_clients">test Clients</string>
+    <string name="action_received_test_followup_referrals">Followups</string>
+
+    <string name="referral_information">Referral Information</string>
+    <string name="visit_facility_hint">Enter facility name</string>
+    <string name="referral_reason">Referral Reason</string>
+
+
+    <string name="followup_feedback">Followup Feedback</string>
+    <string name="hint_missing_reasons">Please choose a feedback</string>
+    <string name="other_followup_feedback_information">Other information e.g condition</string>
+    <string name="referral_date_label">Referral Date</string>
+    <string name="gender">Gender</string>
+    <string name="patient_name_age">Patient Name, Age</string>
+    <string name="missing_client_condition_during_visit">Please fill in the client condition during the visit</string>
+    <string name="missing_feedback">Please select feedback</string>
+    <string name="complete">Complete</string>
+    <string name="finish">Finish</string>
+    <string name="back_to_referrals">Back to referrals</string>
+    <string name="phone">Phone</string>
+    <string name="problem">Problem</string>
+    <string name="referral_date">Referral date</string>
+    <string name="test_on">on</string>
+    <string name="test_client_registered_text">Client registered %s %s</string>
+    <string name="call_test_client">Call test client</string>
+
+    <string name="test_return_to_previous_page">Return to all test clients</string>
+    <string name="record_test_followup">Record test follow-up visit</string>
+    <string name="test_visit_done">test follow-up visit done</string>
+    <string name="test_visit_edit">Edit</string>
+    <string name="last_visit">Last visit</string>
+    <string name="view_test_registration">View test registration</string>
+    <string name="last_visit_n_days_ago">Last visit %1$s ago</string>
+    <string name="less_than_twenty_four">less than 24 hrs</string>
+    <string name="test_upcoming_visit"><![CDATA[%1$s <font color=#7f7f7f>upcoming (%2$s)</font></b>]]></string>
+    <string name="test_service_due"><![CDATA[%1$s <font color=#000000>due (%2$s)</font></b>]]></string>
+
+
+    <!--Referral Strings -->
+    <string name="confirm_form_close">Confirm form close</string>
+    <string name="confirm_form_close_explanation">Are you sure you want to go back? All data you have entered in this form will be cleared.</string>
+    <string name="yes">Yes</string>
+    <string name="no">No</string>
+    <string name="empty_value">None</string>
+    <string name="save">Save</string>
+
+    <string name="test_follow_up_visit">test Follow Up Visit</string>
+    <string name="test_visit_day_due">%s DAYS DUE</string>
+    <string name="test_visit_day_due_today">DUE TODAY</string>
+    <string name="test_visit_day_next_due">Next Due %s </string>
+    <string name="test_visit_day_overdue">%s DAYS OVERDUE</string>
+    <string name="test_visit_day_overdue_today">OVERDUE TODAY</string>
+    <string name="successful_test_registration">Client Registered to test successfully</string>
+    <string name="successful_test_case_closure">Client\'s test case closed successfully</string>
+    <string name="successful_visit">Client test visit saved successfully</string>
+    <string name="form_not_saved">Form was not saved</string>
+    <string name="phone_not_provided">Phone not provided</string>
+    <string name="reasons_for_referral">Reasons for Referral</string>
+    <string name="last_facility_visit_date">Last facility visit date</string>
+    <string name="comments_label">Comments/Remarks</string>
+    <string name="chw">CHW</string>
+    <string name="chw_phone">CHW Phone</string>
+
+    <string name="fill_followup_form">Fill Follow-up Form</string>
+    <string name="view_profile">View Profile</string>
+    <string name="separator"> -  {0}</string>
+
+    <string name="view_followup_feedback_info">View full feedback info</string>
+    <string name="feedback_day">Feedback %s ago</string>
+    <string name="mark_feedback_as_done_message">Community feedback will be closed and disappear from app.</string>
+    <string name="feedback_due_only">Feedback</string>
+    <string name="test_community_followup_referral_issued">test Client Community followup referral issued to CHW</string>
+    <string name="test_outcome_saved">test Problem outcome saved</string>
+    <string name="test_community_followup_feedback_saved">test Community followup feedback saved</string>
+    <string name="form_saved">Form saved successfully</string>
+    <string name="test_positive_status">test Positive</string>
+    <string name="test_negative_status">test Negative</string>
+</resources>
